@@ -49,18 +49,15 @@
 <button type="button" onClick="backgroundChange">Click Me</button>
 
 <script>
-
+  document.getElementById("table")
   counter = 0;
   function toggle(){
 
     if (counter % 2 === 0) {
-      document.getElementById("table").style.backgroundColor ="blue"
-    }else{
-      alert("odd " + String(counter));
+      table.style.backgroundColor = "red"
+      {else}
+      table.style.backgroundColor = "blue"
     }
-
-    alert(counter);
-
     counter++;
 
 
